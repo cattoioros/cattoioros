@@ -123,24 +123,21 @@ p.prezentareintroG {
 }
 
 div.logo{
-  position: absolute;
-  right: 100px;
-  width:45%;
-  bottom:160px;
+  float:right;
+  width:40%;
+  position: relative;
 }
 
 div.logoredbull{
-  position: absolute;
-  right: 100px;
+  position: relative;
+  float:right;
   width:40%;
-  bottom:100px;
 }
 
 div.logoferrari{
-  position: absolute;
-  right: 350px;
+  position: relative;
   width:16%;
-  bottom:50px;
+  float:right;
 }
 
 .centru {
