@@ -1,8 +1,13 @@
 body {
-	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg,rgba(224, 209, 47, 0.067), #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
-	height: 100vh;
+	height: 120vh;
+}
+
+br.t1{
+padding-bottom: 50px;
+
 }
 
 @keyframes gradient {
@@ -65,7 +70,7 @@ p.prezentare {
 p.prezentareG {
   font-family: f1;
   font-weight: 300;
-  text-align: left;
+  text-align: justify;
   font-size: 25px;
   color: #191919;
   position: center;
@@ -75,6 +80,7 @@ p.prezentareG {
   padding-top:25px;
   padding-bottom:25px;
   line-height: 1.2;
+  margin-right:100px;
 }
 
 ul.p{
@@ -152,6 +158,13 @@ div.logoredbull{
   width: 50%;
 }
 
+.centrupilot {
+  display: block;
+  margin-left:23%;
+  width: 90%;
+  overflow-x: hidden;
+}
+
 td.categorie{
   font-size: 25px;
   font-weight:bold;
@@ -174,6 +187,17 @@ table.date{
   float: left;
   width: 30%;
   padding: 5px;
+  overflow-x: hidden;
+}
+
+
+.coloana {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  overflow-x: hidden;
+  font-family: f1;
+  font-size: 50px;
 }
 
 
@@ -184,13 +208,15 @@ table.date{
   position: center;
   padding-bottom:25px;
   padding-top:25px;
+  overflow-x: hidden;
 }
+
 
 div.numarsofer1{
   
   font-size: 50px;
   font-weight:bold;
-  margin-left:600px;
+  
   font-family: f1;
   padding-bottom: 30px;
 
@@ -198,7 +224,7 @@ div.numarsofer1{
 
 div.numesofer1{
   font-size: 35px;
-  margin-left:600px;
+  
   font-family: f1;
 
 }
@@ -206,7 +232,7 @@ div.numesofer1{
 
 div.echipasofer1{
   font-size: 20px;
-  margin-left:600px;
+  
   font-family: f1;
   padding-bottom: 100px;
 
